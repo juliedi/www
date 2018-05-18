@@ -1,6 +1,6 @@
 <!DOCTYPE html> 
-<html lang="en"> <!-- Début du HTML -->
-<head> <!-- Début du Head -->
+<html lang="en"> 
+<head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Data_Project">
@@ -11,26 +11,26 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="style2.css">
     <title>WWW</title>
-</head> <!-- Fin du Head -->
-<body> <!-- Début du Body -->
+</head> 
+<body> 
 
-    <div id="main"> <!-- Début de la div main -->
-        <div id="navbar"> <!-- Début de la div navbar -->
-            <div class="topnav"> <!-- Début de la div topnav -->
+    <div id="main"> 
+        <div id="navbar"> 
+            <div class="topnav"> 
                 <a href="index.php" class="active"><img style="height: 17px;" src="Images/logoWWWwhite.png" alt="logo"></a>
                 <a href="team.html">Equipe</a>
                 <a href="contact.html">Contact</a>
                 <a href="about.html">About</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-            </div> <!-- Fin de la div topnav -->
-        </div> <!-- Fin de la div navbar -->
-    </div> <!-- Fin de la div main -->
+            </div> 
+        </div> 
+    </div>
 
-    <div id="page2_content"> <!-- Début de la div page2_content -->
-        <div id="flex_div"> <!-- Début de la div flex_div -->
+    <div id="page2_content"> 
+        <div id="flex_div">
             <div id="grand_cadre"> </div> 
-            <div id="ttlescadres"> <!-- Début de la div ttlescadres -->
-                <div id="cadre1"> <!-- Début de la div cadre1 -->
+            <div id="ttlescadres">
+                <div id="cadre1"> 
                     <h4>VOUS POUVEZ ASSOCIER VOTRE VIN AVEC :</h4>
                     <?php
                     include('connection.php');
@@ -53,9 +53,9 @@
                     ?>
                     </ul>
 
-                </div> <!-- Fin de la div cadre1 -->
-            </div> <!-- Fin de la div ttlescadres -->
-        </div> <!-- Fin de la div flex_div --> 
+                </div> 
+            </div> 
+        </div>
     </div>  
     
     <footer id="mentions" class="about_footer"> 
@@ -68,5 +68,5 @@
 
     <script type="text/javascript" src="js/fichier.js"></script>
     <script type="text/javascript" src="js/afficher_cacher_div.js"></script>
-</body> <!-- Fin du Body -->
-</html> <!-- Fin du html -->
+</body>
+</html>

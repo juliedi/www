@@ -9,7 +9,7 @@ $vins = $requete->fetchAll();
 
 foreach($vins as $key => $vin)
 {
-echo "<input id='#crus' class='cru' type='checkbox' name='choixCru' value='".$vin['wine_name']."'>".$vin['wine_name']."<br/>";
+echo '<input id="#crus" class="cru" type="checkbox" name="choixCru" value="'.$vin['wine_name'].'">'.$vin['wine_name'].'<br/>';
 }
 ?>
  
